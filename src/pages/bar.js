@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from '../components/layout';
 
-const HomePage = () => {
+const BarPage = () => {
   return (
     <Layout>
-      <title>Home</title>
-      <h1>home</h1>
+      <title>Bar</title>
+      <h1>bar</h1>
     </Layout>
   )
 }
 
-export default HomePage
+export default BarPage
