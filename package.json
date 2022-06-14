@@ -15,10 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.14.5",
+    "gatsby": "^4.16.0",
     "gatsby-plugin-fathom": "^2.1.1",
-    "gatsby-plugin-canonical-urls": "^3.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "gatsby-plugin-canonical-urls": "^4.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
