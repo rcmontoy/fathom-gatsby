@@ -1,13 +1,15 @@
+const siteUrl = `https://www.yourdomain.tld`;
+
 module.exports = {
   siteMetadata: {
     title: `fathom-gatsby`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl,
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'http://localhost:9000',
+        siteUrl,
       }
     },
     {
